@@ -1,0 +1,404 @@
+{
+  "templates": {
+    "default": {
+      "name": "默认简约",
+      "description": "简洁干净的默认样式",
+      "colors": {
+        "primary": "2E86AB",
+        "secondary": "A23B72",
+        "background": "FFFFFF",
+        "title": "1A1A2E",
+        "content": "333333",
+        "accent": "E94F37",
+        "decoration": "2E86AB"
+      },
+      "layout": {
+        "title_slide": {
+          "title_position": "center",
+          "title_y": 2.5,
+          "decoration_style": "bars",
+          "decoration_position": "top_bottom"
+        },
+        "content_slide": {
+          "title_position": "left",
+          "content_padding": 0.5,
+          "decoration_style": "bars",
+          "decoration_position": "left_top"
+        }
+      },
+      "title_slide": {
+        "title_font_size": 44,
+        "title_font_bold": true,
+        "title_color": "primary",
+        "background_color": "background"
+      },
+      "content_slide": {
+        "title_font_size": 32,
+        "title_font_bold": true,
+        "title_color": "primary",
+        "bullet_font_size": 18,
+        "bullet_color": "content",
+        "content_font_size": 16,
+        "content_color": "666666",
+        "key_message_font_size": 20,
+        "key_message_color": "accent",
+        "key_message_bg_color": "accent",
+        "background_color": "background"
+      },
+      "styles": {
+        "bullet_style": "disc",
+        "use_gradient": false,
+        "use_shadow": false,
+        "use_rounded_corners": true
+      },
+      "chart": {
+        "style": "default",
+        "title_font_size": 14,
+        "show_legend": true
+      }
+    },
+    "business": {
+      "name": "商务专业",
+      "description": "适合商务汇报、项目提案",
+      "colors": {
+        "primary": "1B4F72",
+        "secondary": "2E86C1",
+        "background": "FFFFFF",
+        "title": "1A1A2E",
+        "content": "2C3E50",
+        "accent": "E74C3C",
+        "decoration": "1B4F72"
+      },
+      "layout": {
+        "title_slide": {
+          "title_position": "center",
+          "title_y": 3.0,
+          "decoration_style": "sidebar",
+          "decoration_position": "left"
+        },
+        "content_slide": {
+          "title_position": "left",
+          "content_padding": 0.6,
+          "decoration_style": "header_bar",
+          "decoration_position": "top"
+        }
+      },
+      "title_slide": {
+        "title_font_size": 48,
+        "title_font_bold": true,
+        "title_color": "primary",
+        "background_color": "background"
+      },
+      "content_slide": {
+        "title_font_size": 28,
+        "title_font_bold": true,
+        "title_color": "primary",
+        "bullet_font_size": 18,
+        "bullet_color": "content",
+        "content_font_size": 16,
+        "content_color": "7F8C8D",
+        "key_message_font_size": 20,
+        "key_message_color": "accent",
+        "key_message_bg_color": "accent",
+        "background_color": "background"
+      },
+      "styles": {
+        "bullet_style": "number",
+        "use_gradient": false,
+        "use_shadow": true,
+        "use_rounded_corners": false
+      },
+      "chart": {
+        "style": "elegant",
+        "title_font_size": 13,
+        "show_legend": true
+      }
+    },
+    "tech": {
+      "name": "科技蓝",
+      "description": "适合技术分享、产品发布",
+      "colors": {
+        "primary": "00BCD4",
+        "secondary": "03A9F4",
+        "background": "F5F5F5",
+        "title": "0D47A1",
+        "content": "424242",
+        "accent": "FF5722",
+        "decoration": "00BCD4"
+      },
+      "layout": {
+        "title_slide": {
+          "title_position": "center",
+          "title_y": 2.8,
+          "decoration_style": "geometric",
+          "decoration_position": "corners"
+        },
+        "content_slide": {
+          "title_position": "left",
+          "content_padding": 0.5,
+          "decoration_style": "dots",
+          "decoration_position": "right_edge"
+        }
+      },
+      "title_slide": {
+        "title_font_size": 46,
+        "title_font_bold": true,
+        "title_color": "primary",
+        "background_color": "background"
+      },
+      "content_slide": {
+        "title_font_size": 30,
+        "title_font_bold": true,
+        "title_color": "primary",
+        "bullet_font_size": 18,
+        "bullet_color": "content",
+        "content_font_size": 16,
+        "content_color": "757575",
+        "key_message_font_size": 20,
+        "key_message_color": "accent",
+        "key_message_bg_color": "accent",
+        "background_color": "background"
+      },
+      "styles": {
+        "bullet_style": "arrow",
+        "use_gradient": true,
+        "use_shadow": true,
+        "use_rounded_corners": true
+      },
+      "chart": {
+        "style": "gradient",
+        "title_font_size": 14,
+        "show_legend": true
+      }
+    },
+    "academic": {
+      "name": "学术风格",
+      "description": "适合学术报告、研究分享",
+      "colors": {
+        "primary": "1565C0",
+        "secondary": "1976D2",
+        "background": "FAFAFA",
+        "title": "0D47A1",
+        "content": "212121",
+        "accent": "D32F2F",
+        "decoration": "1565C0"
+      },
+      "layout": {
+        "title_slide": {
+          "title_position": "center",
+          "title_y": 2.5,
+          "decoration_style": "minimal",
+          "decoration_position": "bottom_line"
+        },
+        "content_slide": {
+          "title_position": "left",
+          "content_padding": 0.7,
+          "decoration_style": "line",
+          "decoration_position": "title_underline"
+        }
+      },
+      "title_slide": {
+        "title_font_size": 40,
+        "title_font_bold": true,
+        "title_color": "primary",
+        "background_color": "background"
+      },
+      "content_slide": {
+        "title_font_size": 28,
+        "title_font_bold": true,
+        "title_color": "primary",
+        "bullet_font_size": 18,
+        "bullet_color": "content",
+        "content_font_size": 16,
+        "content_color": "616161",
+        "key_message_font_size": 18,
+        "key_message_color": "accent",
+        "key_message_bg_color": "accent",
+        "background_color": "background"
+      },
+      "styles": {
+        "bullet_style": "disc",
+        "use_gradient": false,
+        "use_shadow": false,
+        "use_rounded_corners": false
+      },
+      "chart": {
+        "style": "minimal",
+        "title_font_size": 12,
+        "show_legend": false
+      }
+    },
+    "creative": {
+      "name": "创意活泼",
+      "description": "适合创意展示、活动汇报",
+      "colors": {
+        "primary": "FF6B6B",
+        "secondary": "4ECDC4",
+        "background": "FFFFFF",
+        "title": "2C3E50",
+        "content": "34495E",
+        "accent": "F39C12",
+        "decoration": "FF6B6B"
+      },
+      "layout": {
+        "title_slide": {
+          "title_position": "center",
+          "title_y": 2.2,
+          "decoration_style": "circles",
+          "decoration_position": "scattered"
+        },
+        "content_slide": {
+          "title_position": "left",
+          "content_padding": 0.5,
+          "decoration_style": "wave",
+          "decoration_position": "bottom"
+        }
+      },
+      "title_slide": {
+        "title_font_size": 50,
+        "title_font_bold": true,
+        "title_color": "primary",
+        "background_color": "background"
+      },
+      "content_slide": {
+        "title_font_size": 32,
+        "title_font_bold": true,
+        "title_color": "primary",
+        "bullet_font_size": 18,
+        "bullet_color": "content",
+        "content_font_size": 16,
+        "content_color": "7F8C8D",
+        "key_message_font_size": 22,
+        "key_message_color": "accent",
+        "key_message_bg_color": "accent",
+        "background_color": "background"
+      },
+      "styles": {
+        "bullet_style": "star",
+        "use_gradient": true,
+        "use_shadow": false,
+        "use_rounded_corners": true
+      },
+      "chart": {
+        "style": "vibrant",
+        "title_font_size": 14,
+        "show_legend": true
+      }
+    },
+    "nature": {
+      "name": "自然清新",
+      "description": "适合环保主题、自然科普",
+      "colors": {
+        "primary": "27AE60",
+        "secondary": "2ECC71",
+        "background": "FFFFFF",
+        "title": "1E8449",
+        "content": "2C3E50",
+        "accent": "E67E22",
+        "decoration": "27AE60"
+      },
+      "layout": {
+        "title_slide": {
+          "title_position": "center",
+          "title_y": 2.8,
+          "decoration_style": "leaf",
+          "decoration_position": "corners"
+        },
+        "content_slide": {
+          "title_position": "left",
+          "content_padding": 0.5,
+          "decoration_style": "vine",
+          "decoration_position": "right_edge"
+        }
+      },
+      "title_slide": {
+        "title_font_size": 44,
+        "title_font_bold": true,
+        "title_color": "primary",
+        "background_color": "background"
+      },
+      "content_slide": {
+        "title_font_size": 30,
+        "title_font_bold": true,
+        "title_color": "primary",
+        "bullet_font_size": 18,
+        "bullet_color": "content",
+        "content_font_size": 16,
+        "content_color": "7F8C8D",
+        "key_message_font_size": 20,
+        "key_message_color": "accent",
+        "key_message_bg_color": "accent",
+        "background_color": "background"
+      },
+      "styles": {
+        "bullet_style": "leaf",
+        "use_gradient": false,
+        "use_shadow": false,
+        "use_rounded_corners": true
+      },
+      "chart": {
+        "style": "default",
+        "title_font_size": 13,
+        "show_legend": true
+      }
+    },
+    "dark": {
+      "name": "暗黑模式",
+      "description": "适合技术演讲、晚间展示",
+      "colors": {
+        "primary": "64B5F6",
+        "secondary": "42A5F5",
+        "background": "1A1A2E",
+        "title": "E3F2FD",
+        "content": "E0E0E0",
+        "accent": "FF7043",
+        "decoration": "64B5F6"
+      },
+      "layout": {
+        "title_slide": {
+          "title_position": "center",
+          "title_y": 3.0,
+          "decoration_style": "glow",
+          "decoration_position": "border"
+        },
+        "content_slide": {
+          "title_position": "left",
+          "content_padding": 0.6,
+          "decoration_style": "neon",
+          "decoration_position": "left_edge"
+        }
+      },
+      "title_slide": {
+        "title_font_size": 48,
+        "title_font_bold": true,
+        "title_color": "primary",
+        "background_color": "background"
+      },
+      "content_slide": {
+        "title_font_size": 30,
+        "title_font_bold": true,
+        "title_color": "primary",
+        "bullet_font_size": 18,
+        "bullet_color": "content",
+        "content_font_size": 16,
+        "content_color": "B0BEC5",
+        "key_message_font_size": 20,
+        "key_message_color": "accent",
+        "key_message_bg_color": "accent",
+        "background_color": "background"
+      },
+      "styles": {
+        "bullet_style": "disc",
+        "use_gradient": false,
+        "use_shadow": true,
+        "use_rounded_corners": true
+      },
+      "chart": {
+        "style": "neon",
+        "title_font_size": 14,
+        "show_legend": true
+      }
+    }
+  },
+  "current_template": "default"
+}

@@ -20,7 +20,7 @@ AI PPT Generator is a powerful tool designed to automate the creation of profess
 ### 🚀 Quick Start
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/aippt_v2.git
+   git clone https://github.com/gkxqh/aippt_v2.git
    cd aippt_v2
    ```
 2. **Install dependencies**:
@@ -93,7 +93,7 @@ The system uses `config.json` (auto-generated from `config.py`) to manage:
 ### 🚀 快速开始
 1. **克隆仓库**：
    ```bash
-   git clone https://github.com/your-username/aippt_v2.git
+   git clone https://github.com/gkxqh/aippt_v2.git
    cd aippt_v2
    ```
 2. **安装依赖**：
